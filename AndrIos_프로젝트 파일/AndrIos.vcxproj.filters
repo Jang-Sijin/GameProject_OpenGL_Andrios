@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="쉐이더">
+      <UniqueIdentifier>{4e848fb0-c2ec-40fa-8a90-9c9f0e91c18d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\MENU_IMAGE">
+      <UniqueIdentifier>{b7824df1-d4b8-43e0-b790-6033bac05ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\STAGE_IMAGE">
+      <UniqueIdentifier>{24102455-10e6-4945-a724-1db7c8ee4d48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadFileToBuffer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadObj.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Potal.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_MainMenu.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="apple.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ReadFileToBuffer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadObj.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Potal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="box.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_MainMenu.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="apple.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment.glfs">
+      <Filter>쉐이더</Filter>
+    </None>
+    <None Include="vertexShader.glvs">
+      <Filter>쉐이더</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="IMAGE\PotalMain.jpg">
+      <Filter>리소스 파일\STAGE_IMAGE</Filter>
+    </Image>
+    <Image Include="IMAGE\backGround.jpg">
+      <Filter>리소스 파일\STAGE_IMAGE</Filter>
+    </Image>
+    <Image Include="IMAGE\Box_texture.jpg">
+      <Filter>리소스 파일\STAGE_IMAGE</Filter>
+    </Image>
+    <Image Include="IMAGE\Potal_Back_texture.jpg">
+      <Filter>리소스 파일\STAGE_IMAGE</Filter>
+    </Image>
+    <Image Include="MENU_IMAGE\game_restart.jpg">
+      <Filter>리소스 파일\MENU_IMAGE</Filter>
+    </Image>
+    <Image Include="MENU_IMAGE\game_restart2.jpg">
+      <Filter>리소스 파일\MENU_IMAGE</Filter>
+    </Image>
+    <Image Include="MENU_IMAGE\game_start.jpg">
+      <Filter>리소스 파일\MENU_IMAGE</Filter>
+    </Image>
+    <Image Include="MENU_IMAGE\game_start2.jpg">
+      <Filter>리소스 파일\MENU_IMAGE</Filter>
+    </Image>
+    <Image Include="MENU_IMAGE\gameout_screen.jpg">
+      <Filter>리소스 파일\MENU_IMAGE</Filter>
+    </Image>
+    <Image Include="MENU_IMAGE\main_screen.jpg">
+      <Filter>리소스 파일\MENU_IMAGE</Filter>
+    </Image>
+    <Image Include="IMAGE\Apple.jpg">
+      <Filter>리소스 파일\STAGE_IMAGE</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
